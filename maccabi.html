@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maccabi Tel Aviv</title>
+
+    <!-- logo of maccabi-tel-aviv -->
+    <img  src="C:\Users\avima\Desktop\מערכות מידע\שנה ב\סמסטר א\תקשורת מחשבים\Visual Studio Code\Matala_2_305309940_314720160\Maccabi_Tel_Aviv.png" style="width:30%; height:40%; position: absolute; top:35%; left:40%;"/> 
+</head>
+<body>
+    <form action="https://formspree.io/f/moqpkgzq" method="POST">
+        <br>
+
+        <!-- A fixed order number that cannot be changed -->
+        <label>
+        Order Number:<br>
+        </label>
+        <input type="text" name="orderNumber" placeholder="Name Id" size="30" value="29760734" disabled>
+        <br><br>
+
+        <!-- A place to enter a first name -->
+        <label>
+        First Name:<br>
+        </label>
+        <input type="text" name="FirstName" size="30" maxlength="20" wirte>
+        <br><br>
+
+        <!-- A place to enter a last name -->
+        <label>
+        Last Name:<br>
+        </label>
+        <input type="text" name="LastName" size="30" maxlength="20" wirte>
+        <br><br>
+
+        <!-- A place to choose a clothing -->
+        <label for="Typeofclothing">Type of clothing:</label><br>
+        <input type="radio" id="Typeofclothing" name="clothing" value="shirt" checked="checked">
+        <label for="clothing">Shirt</label><br>
+        <input type="radio" id="Typeofclothing" name="clothing" value="clothing">
+        <label for="clothing">Undershirt</label><br>
+        <input type="radio" id="Typeofclothing" name="clothing" value="clothing">
+        <label for="clothing">Sweater</label><br>
+        <input type="radio" id="Typeofclothing" name="clothing" value="clothing">
+        <label for="clothing">Hoodie</label><br>
+        <input type="radio" id="Typeofclothing" name="clothing" value="clothing">
+        <label for="clothing">Coat</label><br>
+        <br><br>
+
+        <!-- A place to choose a Color -->
+        <label for="Color">Color:</label><br>
+        <select id="Color" name="Color">
+        <option value="Red">Red</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+        <option value="white" selected >white</option>
+        </select>
+        <br><br>
+
+        <!-- A place to choose a size -->
+        <label for="Size">Size:</label><br>
+        <input type="radio" id="Size" name="Size" value="shirt">
+        <label for="Size">S</label><br>
+        <input type="radio" id="Size" name="Size" value="clothing">
+        <label for="Size">M</label><br>
+        <input type="radio" id="Size" name="Size" value="clothing">
+        <label for="Size">L</label><br>
+        <input type="radio" id="Size" name="Size" value="clothing">
+        <label for="Size">XL</label><br>
+        <br><br>
+
+        <!-- A place to choose a Group logo -->
+        <label >Group logo:</label><br>
+        <input type="checkbox" value="Backwards">
+        <label for="Backwards">Backwards</label><br>
+        <input type="checkbox"  value=" Forward">
+        <label for=" Forward ">Forward</label><br>
+        <input type="checkbox"  value="RightSleeve">
+        <label for="RightSleeve">Right sleeve</label><br>
+        <input type="checkbox" value=" LeftSleeve">
+        <label for=" LeftSleeve ">Left sleeve</label>
+        <br><br>
+
+        <!-- A place to enter a Address -->
+        <label>Address:<br>
+        <textarea name="address" size="10" maxlength="30"></textarea>
+        </label>
+        <br><br>
+        
+        <!-- Button to send an order -->
+        <input type="submit" value="שלח הזמנה">
+
+        <!-- Button to start over -->
+        <input type="reset" value="התחל מההתחלה">
+    </form>
+</body>
+</html>
