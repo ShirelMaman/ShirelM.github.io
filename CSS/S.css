@@ -1,0 +1,117 @@
+
+.h1{
+  position: absolute;
+  top: center; 
+  left:40%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h2{
+ position: absolute;
+ top:35%; 
+ left:5%;
+ color: black;
+}
+.Ross{
+  position: absolute;
+  top:100%; 
+  left:60%;
+  font-size: 15px;
+  border-style: dashed;
+  padding: 1%;
+}
+.Ross2{
+  position: absolute;
+  left:40%;
+  font-size: 25px;
+  color: brown;
+}
+.Rachel{
+  position: absolute;
+  top:100%; 
+  right: 50%;
+  font-size: 15px;
+  border-style: dashed;
+  padding: 1%;
+}
+.Rachel2{
+  position: absolute;
+  left:40%;
+  font-size: 25px;
+  color: brown;
+}
+.Joey{
+  position: absolute;
+  top:60%; 
+  right:20%;
+  font-size: 15px;
+  border-style: dashed;
+  padding: 1%;
+}
+.Joey2{
+  position: absolute;
+  left:40%;
+  font-size: 25px;
+  color: brown;
+}
+.a1{
+  position: absolute;
+  top:120%; 
+  left:80%;
+  font-size: 25px;
+  color: red;
+}
+.a2{
+  position: absolute;
+  top:115%; 
+  left:81%;
+  font-size: 25px;
+  color: red;
+}
+.a3{
+  position: absolute;
+  top:2 px;
+  left: 10%; 
+  font-size: 25px;
+  color: rgb(16, 53, 43);
+}
+.hr{ 
+  position: absolute;
+  top:30%; 
+ }
+ .life{
+  position: absolute;
+  top:30%;
+  right: 10% ; 
+}
+.sin{
+  position: absolute;
+  top:30%;
+  right: 30%;
+}
+.two_men{
+  position: absolute;
+  top:30%;
+  right: 60%
+}
+.title{
+  position: absolute;
+  left: 50%;
+  top: 5%;
+   font-family: guttman yad;
+   font-size: 150% ;
+}
+.table_life{
+  position: absolute;
+  top:60%;
+  right: 12.5%;
+}
+.two{
+  position: absolute;
+  top: 60%;
+  right: 60%;
+}
+.table_sin{
+  position: absolute;
+  top:60%;
+  right: 35%;
+}
